@@ -1,0 +1,76 @@
+/* General Reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header Bar Styling */
+  .header-bar {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Top Blue Bar */
+  .top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2196F3;
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  .menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .title {
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  .action-icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .refresh-icon, .profile-icon {
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  /* Content Bar */
+  .content-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .users-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .users-label {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+  }
+  
+  .users-label span {
+    margin-right: 5px;
+  }
+  
+  .export-button {
+    font-size: 14px;
+    color: #2196F3;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  
